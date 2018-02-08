@@ -312,4 +312,28 @@ img {
   background-image: url(../../images/black-background_011.jpg);
   background-repeat: no-repeat;
   background-size: 100% 100%;
+  padding-top: 3.2rem;
+}
+.main .part-1 p {
+  line-height: .88rem;
+  font-size: 26px;
+  text-align: left;
+  width: 5.33333333rem;
+  margin: 1.06666667rem auto 0;
+  font-family: 'FEDRA';
+}
+[data-dpr="2"] .main .part-1 p {
+  font-size: 50px;
+}
+[data-dpr="2.5"] .main .part-1 p {
+  font-size: 62px;
+}
+[data-dpr="2.75"] .main .part-1 p {
+  font-size: 68px;
+}
+[data-dpr="3"] .main .part-1 p {
+  font-size: 76px;
+}
+[data-dpr="4"] .main .part-1 p {
+  font-size: 100px;
 }
