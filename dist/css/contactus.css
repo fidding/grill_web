@@ -1,0 +1,21 @@
+.pad-24 {
+  padding: .69333333rem .64rem;
+}
+.main .part {
+  position: relative;
+  width: 100%;
+}
+.main .part-bg {
+  height: 17.04rem;
+  background-image: url(../../images/contact_bg.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.main .part-bg .part-contact {
+  position: relative;
+  top: 2.64rem;
+  left: 1.25333333rem;
+  width: 7.52rem;
+  height: 13.36rem;
+  background-color: #707070;
+}
