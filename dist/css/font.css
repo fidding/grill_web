@@ -1,0 +1,29 @@
+
+@font-face {
+    font-family: 'BebasNeue';
+    src:url('../font/BebasNeue/BebasNeue.otf')
+}
+@font-face {
+    font-family: 'BebasNeue-light';
+    src:url('../font/BebasNeue/BebasNeue Light.otf')
+}
+@font-face {
+    font-family: 'CaeciliaPMN';
+    src: url('../font/CaeciliaPMN/CaeciliaLTStd-Italic.otf');
+}
+@font-face {
+    font-family: 'FEDRA';
+    src: url('../font/FEDRA/FedraSansStd Normal.1.otf');
+}
+@font-face {
+    font-family: 'FEDRA-light';
+    src: url('../font/FEDRA/FedraSansStd Light.1.otf');
+}
+@font-face {
+    font-family: 'FEDRA-BookItalic';
+    src: url('../font/FEDRA/FedraSansStd BookItalic.1.otf');
+}
+@font-face {
+    font-family: 'FEDRA-Medium';
+    src: url('../font/FEDRA/FedraSansStd Medium.1.otf');
+}
