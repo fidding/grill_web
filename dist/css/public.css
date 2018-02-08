@@ -303,13 +303,70 @@ img {
   margin: 0 auto;
   position: relative;
 }
-.main .part {
-  position: relative;
+/* 头部 */
+.header {
   width: 100%;
+  height: 1.6rem;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 500;
 }
-.main .part-1 {
-  height: 18.53333333rem;
-  background-image: url(../../images/black-background_011.jpg);
+.header .book {
+  width: 1.92rem;
+  height: 1.6rem;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  line-height: 1.6rem;
+  font-family: 'BebasNeue';
+  font-size: 18px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+[data-dpr="2"] .header .book {
+  font-size: 36px;
+}
+[data-dpr="2.5"] .header .book {
+  font-size: 46px;
+}
+[data-dpr="2.75"] .header .book {
+  font-size: 50px;
+}
+[data-dpr="3"] .header .book {
+  font-size: 54px;
+}
+[data-dpr="4"] .header .book {
+  font-size: 72px;
+}
+.header .logo {
+  width: 2.82666667rem;
+  height: 1.09333333rem;
+  display: block;
+  background-image: url(../../images/LOGO-copy.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
+  position: absolute;
+  left: 50%;
+  top: .32rem;
+  margin-left: -1.41333333rem;
+}
+.header .menu {
+  position: absolute;
+  width: 1.14666667rem;
+  height: 1.04rem;
+  right: 0;
+  top: 0;
+}
+.header .menu i {
+  width: .48rem;
+  height: .48rem;
+  display: block;
+  background-image: url(../../images/menu.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
 }
