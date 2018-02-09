@@ -298,11 +298,6 @@ img {
 .o-hidden {
   overflow: hidden;
 }
-.warp {
-  width: 10rem;
-  margin: 0 auto;
-  position: relative;
-}
 .main .part {
   position: relative;
   width: 100%;

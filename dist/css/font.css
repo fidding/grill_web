@@ -8,9 +8,22 @@
     src:url('../font/BebasNeue/BebasNeue Light.otf')
 }
 @font-face {
+    font-family: 'BebasNeue Bold';
+    src:url('../font/BebasNeue/BebasNeue Bold.otf')
+}
+@font-face {
+    font-family: 'BebasNeue Book';
+    src:url('../font/BebasNeue/BebasNeue Book.otf')
+}
+@font-face {
     font-family: 'CaeciliaPMN';
     src: url('../font/CaeciliaPMN/CaeciliaLTStd-Italic.otf');
 }
+@font-face {
+    font-family: 'CaeciliaLTStd-HeavyItalic';
+    src: url('../font/CaeciliaPMN/CaeciliaLTStd-HeavyItalic.otf');
+}
+
 @font-face {
     font-family: 'FEDRA';
     src: url('../font/FEDRA/FedraSansStd Normal.1.otf');
@@ -20,10 +33,42 @@
     src: url('../font/FEDRA/FedraSansStd Light.1.otf');
 }
 @font-face {
+    font-family: 'FedraSansStd LightItalic.1';
+    src: url('../font/FEDRA/FedraSansStd LightItalic.1.otf');
+}
+@font-face {
     font-family: 'FEDRA-BookItalic';
     src: url('../font/FEDRA/FedraSansStd BookItalic.1.otf');
 }
 @font-face {
     font-family: 'FEDRA-Medium';
+    src: url('../font/FEDRA/FedraSansStd Medium.1.otf');
+}
+@font-face {
+    font-family: 'FEDRA-bold';
+    src: url('../font/FEDRA/FedraSansStd Bold.otf');
+}
+@font-face {
+    font-family: 'FEDRA-normal';
+    src: url('../font/FEDRA/FedraSansStd Normal.1.otf');
+}
+@font-face {
+    font-family: 'FEDRA-BookItalic';
+    src: url('../font/FEDRA/FedraSansStd BookItalic.1.otf');
+}
+@font-face {
+    font-family: 'FEDRA-Book';
+    src: url('../font/FEDRA/FedraSansStd Book.1.otf');
+}
+@font-face {
+    font-family: 'FedraSansStd MediumItalic.1';
+    src: url('../font/FEDRA/FedraSansStd MediumItalic.1.otf');
+}
+@font-face {
+    font-family: 'FedraSerifAPro-Bold';
+    src: url('../font/FEDRA/FedraSerifAPro-Bold.otf');
+}
+@font-face {
+    font-family: 'FedraSansStd Medium.1';
     src: url('../font/FEDRA/FedraSansStd Medium.1.otf');
 }
