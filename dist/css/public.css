@@ -225,6 +225,24 @@ img {
 [data-dpr="4"] .font18 {
   font-size: 72px;
 }
+.font14 {
+  font-size: 14px;
+}
+[data-dpr="2"] .font14 {
+  font-size: 28px;
+}
+[data-dpr="2.5"] .font14 {
+  font-size: 36px;
+}
+[data-dpr="2.75"] .font14 {
+  font-size: 38px;
+}
+[data-dpr="3"] .font14 {
+  font-size: 42px;
+}
+[data-dpr="4"] .font14 {
+  font-size: 56px;
+}
 .clearfix:before,
 .clearfix:after {
   content: "";
@@ -456,4 +474,30 @@ img {
 }
 .bookBox .bd {
   margin-top: 1.06666667rem;
+}
+.bookBox .bd .tips {
+  font-family: 'FEDRA-BookItalic';
+  font-size: 14px;
+  color: #fff;
+  text-align: center;
+  line-height: .58666667rem;
+}
+[data-dpr="2"] .bookBox .bd .tips {
+  font-size: 28px;
+}
+[data-dpr="2.5"] .bookBox .bd .tips {
+  font-size: 36px;
+}
+[data-dpr="2.75"] .bookBox .bd .tips {
+  font-size: 38px;
+}
+[data-dpr="3"] .bookBox .bd .tips {
+  font-size: 42px;
+}
+[data-dpr="4"] .bookBox .bd .tips {
+  font-size: 56px;
+}
+.bookBox .bd .forms {
+  width: 6.18666667rem;
+  margin: .8rem auto 0;
 }
