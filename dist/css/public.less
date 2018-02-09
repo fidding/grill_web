@@ -5,6 +5,7 @@
 @colorE: #E5E5E5;
 @colorR: #F8434E;
 @color6: #666666;
+@colorred :#d70b30;
 *{
   margin: 0;
   padding: 0;
@@ -512,5 +513,73 @@ i.jt{
         background-repeat: no-repeat;
         background-size: 100% 100%;
         margin: 1.86666667rem auto 0;
+    }
+}
+/* join 弹窗 */
+.joinBox{
+    width: 100%;
+    padding-bottom: 3.2rem; // 120px
+    overflow-y: auto;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: rgba(0,0,0,.9);
+    z-index: 900;
+    display: none;
+    .the-close{
+        float: right;
+        margin-right: .16rem; // 6px
+    }
+    .bd{
+        width:100%;
+        margin-top: 2.4rem; // 90px
+        .tips{
+            width:100%;
+            font-family: 'FEDRA-BookItalic';
+            .font14;
+            color: #fff;
+            text-align: center;
+            line-height:.69333333rem; // 26px
+        }
+        .tips2{
+            width:100%;
+            font-family: 'FEDRA-BookItalic';
+            .font12;
+            color: #fff;
+            text-align: center;
+            margin-top: .53333333rem; // 20px
+        }
+        .forms{
+            width: 6.18666667rem; // 232px
+            margin: .8rem auto 0;
+            padding-bottom: 1.86666667rem; // 70px
+            .inputText{
+                width: 100%;
+                border-bottom: 1px solid #fff;
+                position: relative;
+                margin-bottom: .53333333rem; // 20px
+                input{
+                    background: transparent;
+                    height: .8rem;
+                    line-height: .8rem; // 30px
+                    text-align: left;
+                    color: #fff;
+                    font-family: 'BebasNeue-light';
+                    .font16;
+                    border: none;
+                    outline: none;
+                }
+                input::-webkit-input-placeholder {
+                    color: #fff;
+                }
+            }
+            .btn-sub{
+                width:6.13333333rem; // 230px
+                height: .85333333rem; // 32px
+                line-height: .85333333rem; // 32px
+                display: block;
+                .font16;
+            }
+        }
     }
 }

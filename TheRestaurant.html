@@ -35,6 +35,44 @@
             <p class="p-1">“A NEW WAY TO ENJOY HAVING FUN FOR MEAT LOVERS.</p>
             <p>WE BUILD GREAT FUN DINING EXPERIENCES. WE DO IT WELL!”</p>
         </div>
+        <div class="part part-2">
+            <div class="part-2-content">
+                <p class="p-1">
+                    “...and that’s why we’re not 
+                        <br />
+                    just a restaurant.”
+                </p>
+                <!-- Swiper -->
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <a href="javascript:;">
+                                <img src="images/16.jpg">
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="javascript:;">
+                                <img src="images/16.jpg">
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="javascript:;">
+                                <img src="images/16.jpg">
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Add Arrows -->
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+                <p class="p-2">
+                    <span>Bus Grill Turkish Steakhouse</span> concepts is a progressive organization specializing in the development of quality fun dining experiences throughout Shenzhen, China with additional diversified businesses associated with the hospitality industry.
+                </p>
+            </div>
+        </div>
+        <div class="part part-3">
+            
+        </div>
     </div>
 </div>
 
@@ -133,7 +171,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="javascript:;" class="joinOur">
+                    <a href="javascript:;" class="joinOur" id="j-joinOur">
                         JOIN OUR
                         <br />
                         MAILING LIST
@@ -149,9 +187,62 @@
         <div class="follow-us"></div>
     </div>
 </div>
+<!-- join 弹窗 -->
+<div class="joinBox">
+    <div class="the-close">
+        <i></i>
+    </div>
+    <div class="bd">
+        <div class="tips">
+            Please enter your information
+            <br />
+            to receive the latest news, updates, 
+            <br />
+            promotions and information from 
+            <br />
+            Bus Grill.
+        </div>
+        <div class="tips2">
+            We respect your privacy and will not sell, 
+            <br />
+            rent or give your information to anyone.
+        </div>
+        <div class="forms">
+            <div class="inputText">
+                <input type="text" placeholder="SURNAME/NAME">
+            </div>
+            <div class="inputText">
+                <input type="tel" placeholder="PHONE NUMBER">
+            </div>
+            <div class="inputText">
+                <input type="text" placeholder="E-MAIL">
+            </div>
+            <div class="inputText">
+                <input type="text" placeholder="COMPANY">
+            </div>
+            <button type="submit" class="btn-sub">JOIN MAILING LIST</button>
+        </div>
+    </div>
+</div>
 
 <script  src="dist/js/lib/jquery-3.0.0.min.js"></script>
 <script  src="dist/js/swiper/swiper.min.js"></script>
 <script  src="dist/js/main.js"></script>
+<script type="text/javascript">
+    var swiper = new Swiper('.swiper-container', {
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+        autoplay: {
+            delay: 4000,
+            stopOnLastSlide: false,
+            disableOnInteraction: true,
+        },
+        loop:true,
+        observer:true,
+        observeParents:true
+    });
+</script>
 </body>
 </html>

@@ -17,6 +17,8 @@ function reset_topmenu_top(topmenu) {
 }
 /*book*/
 var bookBox = $(".bookBox");
+var menuBox = $(".menuBox");
+var joinBox = $(".joinBox");
 $('#j-book').click(function(){
     bookBox.show();
     $('body').addClass('o-hidden');
@@ -26,7 +28,19 @@ $("#j-close").click(function(){
     $('body').removeClass('o-hidden');
 })
 /*menu*/
-var menuBox = $(".menuBox")
 $("#j-menu").click(function () {
+    $('body').addClass('o-hidden');
     menuBox.show();
+})
+$(".menuBox .the-close").click(function(){
+    menuBox.hide();
+})
+/*<!-- join 弹窗 -->*/
+$("#j-joinOur").click(function() {
+    menuBox.hide();
+    joinBox.show();
+})
+$(".joinBox .the-close").click(function(){
+    joinBox.hide();
+    $('body').removeClass('o-hidden');
 })

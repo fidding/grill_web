@@ -350,3 +350,96 @@ img {
 [data-dpr="4"] .main .part-1 p {
   font-size: 100px;
 }
+.main .part-2 {
+  height: 7.68rem;
+  background-color: #141414;
+  margin-top: 5.44rem;
+}
+.main .part-2 .part-2-content {
+  width: 8.26666667rem;
+  margin: 0 auto;
+  position: relative;
+  top: -4.26666667rem;
+}
+.main .part-2 .part-2-content .p-1 {
+  width: 7.2rem;
+  margin: 0 auto;
+  text-align: right;
+  color: #d70b30;
+  font-size: 18px;
+  font-family: 'CaeciliaLTStd-HeavyItalic';
+}
+[data-dpr="2"] .main .part-2 .part-2-content .p-1 {
+  font-size: 36px;
+}
+[data-dpr="2.5"] .main .part-2 .part-2-content .p-1 {
+  font-size: 46px;
+}
+[data-dpr="2.75"] .main .part-2 .part-2-content .p-1 {
+  font-size: 50px;
+}
+[data-dpr="3"] .main .part-2 .part-2-content .p-1 {
+  font-size: 54px;
+}
+[data-dpr="4"] .main .part-2 .part-2-content .p-1 {
+  font-size: 72px;
+}
+.main .part-2 .part-2-content .p-2 {
+  width: 8.26666667rem;
+  margin: .53333333rem auto 0;
+  text-align: left;
+  color: #fff;
+  font-size: 12px;
+  font-family: 'FEDRA-Book';
+  line-height: .53333333rem;
+}
+[data-dpr="2"] .main .part-2 .part-2-content .p-2 {
+  font-size: 24px;
+}
+[data-dpr="2.5"] .main .part-2 .part-2-content .p-2 {
+  font-size: 30px;
+}
+[data-dpr="2.75"] .main .part-2 .part-2-content .p-2 {
+  font-size: 34px;
+}
+[data-dpr="3"] .main .part-2 .part-2-content .p-2 {
+  font-size: 36px;
+}
+[data-dpr="4"] .main .part-2 .part-2-content .p-2 {
+  font-size: 48px;
+}
+.main .part-2 .part-2-content .p-2 span {
+  font-weight: bold;
+}
+.main .part-2 .swiper-container {
+  width: 8.26666667rem;
+  margin: .42666667rem auto 0;
+}
+.main .part-2 .swiper-container .swiper-slide {
+  width: 100%;
+}
+.main .part-2 .swiper-container .swiper-slide a {
+  width: 100%;
+  display: block;
+  width: 8.26666667rem;
+  height: 5.49333333rem;
+}
+.main .part-2 .swiper-container .swiper-button-next,
+.main .part-2 .swiper-container .swiper-button-prev {
+  width: .66666667rem;
+  height: .66666667rem;
+  top: 50%;
+  margin-top: -0.34666667rem;
+}
+.main .part-2 .swiper-container .swiper-button-next {
+  background: #717171 url(../../images/next.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  right: 0;
+}
+.main .part-2 .swiper-container .swiper-button-prev {
+  background: #717171 url(../../images/prev.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  left: 0;
+}

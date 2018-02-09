@@ -5,6 +5,7 @@
 @colorE: #E5E5E5;
 @colorR: #F8434E;
 @color6: #666666;
+@colorred :#d70b30;
 *{
   margin: 0;
   padding: 0;
@@ -200,6 +201,68 @@ img{
             width: 5.33333333rem; // 200px
             margin: 1.06666667rem auto 0;
             font-family: 'FEDRA';
+        }
+    }
+    .part-2{
+        height: 7.68rem; // 288px
+        background-color: #141414;
+        margin-top: 5.44rem; // 204px
+        .part-2-content{
+            width: 8.26666667rem; // 310px
+            margin: 0 auto;
+            position:relative;
+            top: -4.26666667rem; // 160px
+            .p-1{
+                width: 7.2rem; // 270px
+                margin: 0 auto;
+                text-align: right;
+                color:@colorred;
+                .font18;
+                font-family: 'CaeciliaLTStd-HeavyItalic';
+            }
+            .p-2{
+                width: 8.26666667rem; // 310px
+                margin: .53333333rem auto 0;
+                text-align: left;
+                color:#fff;
+                .font12;
+                font-family: 'FEDRA-Book';
+                line-height:.53333333rem; // 20px
+                span{
+                    font-weight: bold;
+                }
+            }
+        }
+        .swiper-container{
+            width: 8.26666667rem; // 310px
+            margin: .42666667rem auto 0;
+            .swiper-slide{
+                width:100%;
+                a{
+                    width:100%;
+                    display: block;
+                    width: 8.26666667rem; // 310px
+                    height:5.49333333rem; // 206px
+                }
+            }
+            .swiper-button-next,.swiper-button-prev{
+                width: .66666667rem; // 25px
+                height:.66666667rem; // 25px
+                top: 50%;
+                margin-top: -.34666667rem; // 13px
+            }
+            .swiper-button-next{
+                background: #717171 url(../../images/next.png);
+                background-repeat: no-repeat;
+                background-size: 100% 100%;
+                right: 0;
+            }
+            .swiper-button-prev{
+                background: #717171 url(../../images/prev.png);
+                background-repeat: no-repeat;
+                background-size: 100% 100%;
+                left:0;
+            }
         }
     }
 }
