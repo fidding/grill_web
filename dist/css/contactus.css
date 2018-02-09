@@ -7,17 +7,26 @@
 .margin-top-10 {
   margin-top: .26666667rem;
 }
+.margin-top-15 {
+  margin-top: .4rem;
+}
+.margin-bottom-15 {
+  margin-bottom: .4rem;
+}
 .margin-top-17 {
   margin-top: .45333333rem;
 }
 .margin-bottom-17 {
   margin-bottom: .45333333rem;
 }
+.margin-top-20 {
+  margin-top: .53333333rem;
+}
+.margin-bottom-20 {
+  margin-bottom: .53333333rem;
+}
 .pad-24 {
   padding: .69333333rem .64rem;
-}
-.pad-top-8 {
-  padding-top: .21333333rem;
 }
 .pad-top-19 {
   padding-top: .50666667rem;
@@ -27,6 +36,12 @@
 }
 .pad-top-12 {
   padding-top: .32rem;
+}
+.pad-top-10 {
+  padding-top: .26666667rem;
+}
+.pad-top-8 {
+  padding-top: .21333333rem;
 }
 .hr-1 {
   height: .02666667rem;
@@ -50,4 +65,18 @@
   width: 7.52rem;
   height: 13.36rem;
   background-color: #707070;
+}
+.main .part-bg .part-contact .qrcode-list {
+  clear: both;
+}
+.main .part-bg .part-contact .qrcode-list ul {
+  margin: 0 -0.18666667rem;
+}
+.main .part-bg .part-contact .qrcode-list ul li {
+  float: left;
+  padding: 0 .18666667rem;
+}
+.main .part-bg .part-contact .qrcode-list .qrcode {
+  width: 1.81333333rem;
+  height: 1.81333333rem;
 }
