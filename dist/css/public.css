@@ -225,6 +225,24 @@ img {
 [data-dpr="4"] .font18 {
   font-size: 72px;
 }
+.font16 {
+  font-size: 16px;
+}
+[data-dpr="2"] .font16 {
+  font-size: 32px;
+}
+[data-dpr="2.5"] .font16 {
+  font-size: 40px;
+}
+[data-dpr="2.75"] .font16 {
+  font-size: 44px;
+}
+[data-dpr="3"] .font16 {
+  font-size: 48px;
+}
+[data-dpr="4"] .font16 {
+  font-size: 64px;
+}
 .font14 {
   font-size: 14px;
 }
@@ -242,6 +260,24 @@ img {
 }
 [data-dpr="4"] .font14 {
   font-size: 56px;
+}
+.font12 {
+  font-size: 12px;
+}
+[data-dpr="2"] .font12 {
+  font-size: 24px;
+}
+[data-dpr="2.5"] .font12 {
+  font-size: 30px;
+}
+[data-dpr="2.75"] .font12 {
+  font-size: 34px;
+}
+[data-dpr="3"] .font12 {
+  font-size: 36px;
+}
+[data-dpr="4"] .font12 {
+  font-size: 48px;
 }
 .clearfix:before,
 .clearfix:after {
@@ -319,6 +355,59 @@ img {
 }
 .bigWords {
   text-transform: Uppercase;
+}
+i.jt {
+  width: .58666667rem;
+  height: .26666667rem;
+  display: inline-block;
+  background-image: url(../../images/jt.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.btn-sub {
+  width: 6.13333333rem;
+  height: .90666667rem;
+  line-height: .90666667rem;
+  text-align: center;
+  color: #fff;
+  font-family: 'BebasNeue';
+  font-size: 16px;
+  border: 1px solid #fff;
+  background-color: transparent;
+  margin: 1.33333333rem auto 0;
+}
+[data-dpr="2"] .btn-sub {
+  font-size: 32px;
+}
+[data-dpr="2.5"] .btn-sub {
+  font-size: 40px;
+}
+[data-dpr="2.75"] .btn-sub {
+  font-size: 44px;
+}
+[data-dpr="3"] .btn-sub {
+  font-size: 48px;
+}
+[data-dpr="4"] .btn-sub {
+  font-size: 64px;
+}
+.the-close {
+  position: relative;
+  width: 1.28rem;
+  height: 1.44rem;
+}
+.the-close i {
+  width: .64rem;
+  height: .72rem;
+  display: inline-block;
+  background-image: url(../../images/Cross.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -0.32rem;
+  margin-top: -0.34666667rem;
 }
 .warp {
   width: 100%;
@@ -408,6 +497,7 @@ img {
   top: 0;
   background-color: rgba(0, 0, 0, 0.9);
   z-index: 900;
+  display: none;
 }
 .bookBox .hd {
   width: 100%;
@@ -500,4 +590,258 @@ img {
 .bookBox .bd .forms {
   width: 6.18666667rem;
   margin: .8rem auto 0;
+  padding-bottom: 1.86666667rem;
+}
+.bookBox .bd .forms .weui-select,
+.bookBox .bd .forms .weui-input {
+  color: #fff;
+  padding: 0;
+  height: .96rem;
+  line-height: .96rem;
+  font-size: 16px;
+  font-family: 'FEDRA-Book';
+}
+[data-dpr="2"] .bookBox .bd .forms .weui-select,
+[data-dpr="2"] .bookBox .bd .forms .weui-input {
+  font-size: 32px;
+}
+[data-dpr="2.5"] .bookBox .bd .forms .weui-select,
+[data-dpr="2.5"] .bookBox .bd .forms .weui-input {
+  font-size: 40px;
+}
+[data-dpr="2.75"] .bookBox .bd .forms .weui-select,
+[data-dpr="2.75"] .bookBox .bd .forms .weui-input {
+  font-size: 44px;
+}
+[data-dpr="3"] .bookBox .bd .forms .weui-select,
+[data-dpr="3"] .bookBox .bd .forms .weui-input {
+  font-size: 48px;
+}
+[data-dpr="4"] .bookBox .bd .forms .weui-select,
+[data-dpr="4"] .bookBox .bd .forms .weui-input {
+  font-size: 64px;
+}
+.bookBox .bd .forms .weui-select option,
+.bookBox .bd .forms .weui-input option {
+  background: transparent;
+}
+.bookBox .bd .forms .inputItem {
+  width: 100%;
+  border-bottom: 1px solid #fff;
+  position: relative;
+  margin-bottom: .85333333rem;
+}
+.bookBox .bd .forms .inputItem .weui-cell_select {
+  position: relative;
+}
+.bookBox .bd .forms .inputItem .weui-cell_select i.jt {
+  position: absolute;
+  right: 0;
+  top: .32rem;
+  z-index: -1;
+}
+.bookBox .bd .forms .inputItem label {
+  font-family: 'BebasNeue-light';
+  color: #fff;
+  font-size: 16px;
+}
+[data-dpr="2"] .bookBox .bd .forms .inputItem label {
+  font-size: 32px;
+}
+[data-dpr="2.5"] .bookBox .bd .forms .inputItem label {
+  font-size: 40px;
+}
+[data-dpr="2.75"] .bookBox .bd .forms .inputItem label {
+  font-size: 44px;
+}
+[data-dpr="3"] .bookBox .bd .forms .inputItem label {
+  font-size: 48px;
+}
+[data-dpr="4"] .bookBox .bd .forms .inputItem label {
+  font-size: 64px;
+}
+.bookBox .bd .forms .weui-textarea {
+  margin-top: 1.28rem;
+  width: 5.70666667rem;
+  height: 1.49333333rem;
+  border: 1px solid #fff;
+  background: transparent;
+  font-family: 'BebasNeue-light';
+  font-size: 14px;
+  color: #fff;
+  line-height: .42666667rem;
+  padding: .26666667rem;
+  margin-bottom: 1.06666667rem;
+}
+[data-dpr="2"] .bookBox .bd .forms .weui-textarea {
+  font-size: 28px;
+}
+[data-dpr="2.5"] .bookBox .bd .forms .weui-textarea {
+  font-size: 36px;
+}
+[data-dpr="2.75"] .bookBox .bd .forms .weui-textarea {
+  font-size: 38px;
+}
+[data-dpr="3"] .bookBox .bd .forms .weui-textarea {
+  font-size: 42px;
+}
+[data-dpr="4"] .bookBox .bd .forms .weui-textarea {
+  font-size: 56px;
+}
+.bookBox .bd .forms .weui-textarea::-webkit-input-placeholder {
+  color: #fff;
+}
+.bookBox .bd .forms .inputText {
+  width: 100%;
+  border-bottom: 1px solid #fff;
+  position: relative;
+  margin-bottom: .53333333rem;
+}
+.bookBox .bd .forms .inputText input {
+  background: transparent;
+  height: .8rem;
+  line-height: .8rem;
+  text-align: left;
+  color: #fff;
+  font-family: 'BebasNeue-light';
+  font-size: 16px;
+  border: none;
+  outline: none;
+}
+[data-dpr="2"] .bookBox .bd .forms .inputText input {
+  font-size: 32px;
+}
+[data-dpr="2.5"] .bookBox .bd .forms .inputText input {
+  font-size: 40px;
+}
+[data-dpr="2.75"] .bookBox .bd .forms .inputText input {
+  font-size: 44px;
+}
+[data-dpr="3"] .bookBox .bd .forms .inputText input {
+  font-size: 48px;
+}
+[data-dpr="4"] .bookBox .bd .forms .inputText input {
+  font-size: 64px;
+}
+.bookBox .bd .forms .inputText input::-webkit-input-placeholder {
+  color: #fff;
+}
+/* menu弹窗 */
+.menuBox {
+  width: 100%;
+  padding-bottom: 1.06666667rem;
+  overflow-y: auto;
+  position: fixed;
+  left: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.9);
+  z-index: 900;
+  display: none;
+}
+.menuBox .the-close {
+  float: right;
+  margin-right: .16rem;
+}
+.menuBox .linkBox ul li {
+  float: left;
+  width: 100%;
+}
+.menuBox .linkBox ul li a {
+  width: 100%;
+  padding: .53333333rem 0;
+  line-height: .69333333rem;
+  color: #fff;
+  display: block;
+  font-family: 'BebasNeue';
+  font-size: 24px;
+  text-align: center;
+  position: relative;
+}
+[data-dpr="2"] .menuBox .linkBox ul li a {
+  font-size: 48px;
+}
+[data-dpr="2.5"] .menuBox .linkBox ul li a {
+  font-size: 60px;
+}
+[data-dpr="2.75"] .menuBox .linkBox ul li a {
+  font-size: 66px;
+}
+[data-dpr="3"] .menuBox .linkBox ul li a {
+  font-size: 72px;
+}
+[data-dpr="4"] .menuBox .linkBox ul li a {
+  font-size: 96px;
+}
+.menuBox .linkBox ul li a.joinOur {
+  line-height: 1.2;
+}
+.menuBox .linkBox ul li a i {
+  width: .58666667rem;
+  height: 1px;
+  background-color: #fff;
+  display: block;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  margin-left: -0.29333333rem;
+}
+.menuBox .language-change {
+  width: 100%;
+  margin: 2.66666667rem auto 0;
+  text-align: center;
+}
+.menuBox .language-change .language-item {
+  font-family: 'BebasNeue Book';
+  color: #fff;
+  font-size: 18px;
+}
+[data-dpr="2"] .menuBox .language-change .language-item {
+  font-size: 36px;
+}
+[data-dpr="2.5"] .menuBox .language-change .language-item {
+  font-size: 46px;
+}
+[data-dpr="2.75"] .menuBox .language-change .language-item {
+  font-size: 50px;
+}
+[data-dpr="3"] .menuBox .language-change .language-item {
+  font-size: 54px;
+}
+[data-dpr="4"] .menuBox .language-change .language-item {
+  font-size: 72px;
+}
+.menuBox .language-change .language-item.on {
+  font-family: 'BebasNeue Bold';
+  border-bottom: .08rem solid #fff;
+}
+.menuBox .language-change span {
+  font-family: 'BebasNeue Book';
+  color: #fff;
+  font-size: 12px;
+  display: inline-block;
+  margin: 0 .26666667rem;
+}
+[data-dpr="2"] .menuBox .language-change span {
+  font-size: 24px;
+}
+[data-dpr="2.5"] .menuBox .language-change span {
+  font-size: 30px;
+}
+[data-dpr="2.75"] .menuBox .language-change span {
+  font-size: 34px;
+}
+[data-dpr="3"] .menuBox .language-change span {
+  font-size: 36px;
+}
+[data-dpr="4"] .menuBox .language-change span {
+  font-size: 48px;
+}
+.menuBox .follow-us {
+  width: 5.81333333rem;
+  height: .48rem;
+  display: block;
+  background-image: url(../../images/REDES.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin: 1.86666667rem auto 0;
 }

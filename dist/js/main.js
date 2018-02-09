@@ -15,3 +15,18 @@ function reset_topmenu_top(topmenu) {
         $(".header").removeClass("header-active");
     }
 }
+/*book*/
+var bookBox = $(".bookBox");
+$('#j-book').click(function(){
+    bookBox.show();
+    $('body').addClass('o-hidden');
+})
+$("#j-close").click(function(){
+    bookBox.hide();
+    $('body').removeClass('o-hidden');
+})
+/*menu*/
+var menuBox = $(".menuBox")
+$("#j-menu").click(function () {
+    menuBox.show();
+})
