@@ -224,6 +224,24 @@ img {
 [data-dpr="4"] .font18 {
   font-size: 72px;
 }
+.font12 {
+  font-size: 12px;
+}
+[data-dpr="2"] .font12 {
+  font-size: 24px;
+}
+[data-dpr="2.5"] .font12 {
+  font-size: 30px;
+}
+[data-dpr="2.75"] .font12 {
+  font-size: 34px;
+}
+[data-dpr="3"] .font12 {
+  font-size: 36px;
+}
+[data-dpr="4"] .font12 {
+  font-size: 48px;
+}
 .clearfix:before,
 .clearfix:after {
   content: "";

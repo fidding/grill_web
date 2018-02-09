@@ -1,5 +1,37 @@
+.margin-top-5 {
+  margin-top: .13333333rem;
+}
+.margin-top-7 {
+  margin-top: .18666667rem;
+}
+.margin-top-10 {
+  margin-top: .26666667rem;
+}
+.margin-top-17 {
+  margin-top: .45333333rem;
+}
+.margin-bottom-17 {
+  margin-bottom: .45333333rem;
+}
 .pad-24 {
   padding: .69333333rem .64rem;
+}
+.pad-top-8 {
+  padding-top: .21333333rem;
+}
+.pad-top-19 {
+  padding-top: .50666667rem;
+}
+.pad-top-23 {
+  padding-top: .61333333rem;
+}
+.pad-top-12 {
+  padding-top: .32rem;
+}
+.hr-1 {
+  height: .02666667rem;
+  width: 100%;
+  background: #fff;
 }
 .main .part {
   position: relative;
