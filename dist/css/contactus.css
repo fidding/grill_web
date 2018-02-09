@@ -1,53 +1,3 @@
-.margin-top-5 {
-  margin-top: .13333333rem;
-}
-.margin-top-7 {
-  margin-top: .18666667rem;
-}
-.margin-top-10 {
-  margin-top: .26666667rem;
-}
-.margin-top-15 {
-  margin-top: .4rem;
-}
-.margin-bottom-15 {
-  margin-bottom: .4rem;
-}
-.margin-top-17 {
-  margin-top: .45333333rem;
-}
-.margin-bottom-17 {
-  margin-bottom: .45333333rem;
-}
-.margin-top-20 {
-  margin-top: .53333333rem;
-}
-.margin-bottom-20 {
-  margin-bottom: .53333333rem;
-}
-.pad-24 {
-  padding: .69333333rem .64rem;
-}
-.pad-top-19 {
-  padding-top: .50666667rem;
-}
-.pad-top-23 {
-  padding-top: .61333333rem;
-}
-.pad-top-12 {
-  padding-top: .32rem;
-}
-.pad-top-10 {
-  padding-top: .26666667rem;
-}
-.pad-top-8 {
-  padding-top: .21333333rem;
-}
-.hr-1 {
-  height: .02666667rem;
-  width: 100%;
-  background: #fff;
-}
 .main .part {
   position: relative;
   width: 100%;
@@ -61,7 +11,7 @@
 .main .part-bg .part-contact {
   position: relative;
   top: 2.64rem;
-  left: 1.25333333rem;
+  margin: 0 auto;
   width: 7.52rem;
   height: 13.36rem;
   background-color: #707070;
@@ -79,4 +29,10 @@
 .main .part-bg .part-contact .qrcode-list .qrcode {
   width: 1.81333333rem;
   height: 1.81333333rem;
+}
+.main .part-bg .part-map {
+  position: relative;
+  height: 8.8rem;
+  width: 100%;
+  top: 0px;
 }
