@@ -71,10 +71,13 @@
   top: .53333333rem;
   z-index: 800;
 }
+.main .part-logo ul {
+  clear: both;
+}
 .main .part-logo ul li {
   margin: 0 .26666667rem;
   float: left;
-  width: 4rem;
+  width: 4.10666667rem;
 }
 .main .part-logo .more {
   padding: .02666667rem 0;

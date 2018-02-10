@@ -1,0 +1,219 @@
+.main .part-3 {
+  position: relative;
+}
+.main .part-3 .block-img img {
+  width: 2.93333333rem;
+  height: 2.29333333rem;
+}
+.main .part-3 .block-img-position {
+  position: absolute;
+  right: .21333333rem;
+  top: 4.90666667rem;
+}
+.main .part-3 .block-img-position img {
+  width: 3.94666667rem;
+}
+.main .part-trendy {
+  background-color: #f7f7f7;
+}
+.main .part-trendy .birol {
+  height: 4.26666667rem;
+}
+.main .part-trendy .birol ul li {
+  float: left;
+  width: 50%;
+}
+.main .part-trendy .birol img {
+  height: 4.26666667rem;
+  width: 4.10666667rem;
+}
+.main .part-trendy .founder {
+  position: relative;
+  height: 3.86666667rem;
+}
+.main .part-trendy .founder span {
+  position: absolute;
+  right: 5.62666667rem;
+  top: 1.70666667rem;
+}
+.main .part-trendy .founder img.double {
+  position: absolute;
+  right: 0px;
+  width: 5.2rem;
+  height: 3.86666667rem;
+}
+.main .part-trendy .founder img.red-font {
+  position: absolute;
+  height: .64rem;
+  width: 4.37333333rem;
+  right: 4.16rem;
+  top: .53333333rem;
+  z-index: 800;
+}
+.main .part-team-img {
+  position: relative;
+}
+.main .part-team-img .img-team-text {
+  position: absolute;
+  height: 2.66666667rem;
+}
+.main .part-team-img .img-team-text img {
+  position: relative;
+  width: 5.54666667rem;
+  height: 1.52rem;
+  top: -0.98666667rem;
+  left: .26666667rem;
+}
+.main .part-vip {
+  position: relative;
+  height: 15.46666667rem;
+}
+.main .part-vip .logo {
+  width: 2.69333333rem;
+  height: 1.76rem;
+}
+.main .part-vip .logo img {
+  width: .98666667rem;
+  height: .8rem;
+  margin: .45333333rem auto;
+}
+.main .part-vip .logo-white {
+  position: absolute;
+  top: .8rem;
+  right: 2.13333333rem;
+}
+.main .part-vip .logo-red {
+  position: absolute;
+  top: 1.6rem;
+  right: .8rem;
+}
+.main .part-vip .block-cny {
+  position: relative;
+}
+.main .part-vip .block-cny .cny {
+  position: absolute;
+  width: 3.84rem;
+}
+.main .part-vip .block-cny .cny .cny-item,
+.main .part-vip .block-cny .cny .cny-item-last {
+  margin-bottom: .37333333rem;
+  padding-top: .66666667rem;
+  padding-bottom: .4rem;
+}
+.main .part-vip .block-cny .cny .cny-item {
+  border-radius: .21333333rem;
+  border: .02666667rem solid #fff;
+}
+.main .part-vip .block-cny .cny .cny-item span,
+.main .part-vip .block-cny .cny .cny-item-last span {
+  border-bottom: .02666667rem solid #fff;
+}
+.main .part-vip .block-cny .cny-left {
+  left: 0;
+}
+.main .part-vip .block-cny .cny-right {
+  right: 0;
+}
+.main .part-vip .block-cny ul {
+  clear: both;
+}
+.main .part-vip .block-cny ul li {
+  float: left;
+}
+.main .part-press {
+  height: 11.78666667rem;
+  background-color: #f1f1f1;
+}
+.main .part-press .block-swiper {
+  height: 6.4rem;
+}
+.main .part-logo {
+  color: #747474;
+}
+.main .part-logo ul {
+  clear: both;
+  padding: 0 .13333333rem;
+}
+.main .part-logo ul li {
+  margin: 0 .26666667rem;
+  float: left;
+  width: 4.10666667rem;
+}
+.main .part-logo .more {
+  padding: .02666667rem 0;
+  display: inline-block;
+  border-bottom: .02666667rem solid #747474;
+}
+.main .part-logo .logo {
+  position: relative;
+}
+.main .part-logo .logo img {
+  position: absolute;
+  right: .21333333rem;
+  bottom: 0px;
+}
+.main .part-logo .logo-1 {
+  height: 1.81333333rem;
+}
+.main .part-logo .logo-1 img {
+  width: 2.21333333rem;
+  height: 1.81333333rem;
+}
+.main .part-logo .logo-2 {
+  height: 1.81333333rem;
+}
+.main .part-logo .logo-2 img {
+  width: 3.52rem;
+  height: 1.33333333rem;
+}
+.main .part-logo .logo-3 {
+  height: 2.66666667rem;
+}
+.main .part-logo .logo-3 img {
+  width: 3.38666667rem;
+  height: 1.78666667rem;
+}
+.main .part-logo .logo-4 {
+  height: 2.66666667rem;
+}
+.main .part-logo .logo-4 img {
+  width: 1.73333333rem;
+  height: 2.02666667rem;
+}
+.main .part-swiper .block-img {
+  height: 8.53333333rem;
+}
+.main .part-swiper .block-text {
+  position: relative;
+  background-color: #d70b30;
+  color: #fff;
+}
+.main .part-swiper .block-text .more {
+  border-bottom: .02666667rem solid #fff;
+}
+.main .part-swiper .block-text .quota {
+  color: #fff;
+  position: absolute;
+}
+.main .part-swiper .block-text .quota-left {
+  top: .74666667rem;
+  left: .93333333rem;
+}
+.main .part-swiper .block-text .quota-right {
+  bottom: .66666667rem;
+  right: .93333333rem;
+}
+.main .part-new {
+  background-color: #c0c0c0;
+  height: 7.6rem;
+}
+.main .part-4peopl4e {
+  position: relative;
+  height: 6.77333333rem;
+  padding: 0 .26666667rem;
+}
+.main .part-4peopl4e .block-img {
+  position: relative;
+  height: 6.34666667rem;
+  top: -1.33333333rem;
+}
