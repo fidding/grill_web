@@ -1,3 +1,9 @@
+.bg-c {
+  background-color: #ccc;
+}
+.bg-d6 {
+  background-color: #d6d6d6;
+}
 * {
   margin: 0;
   padding: 0;

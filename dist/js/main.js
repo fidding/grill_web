@@ -44,3 +44,11 @@ $(".joinBox .the-close").click(function(){
     joinBox.hide();
     $('body').removeClass('o-hidden');
 })
+
+/*ourfood 切换*/
+$('.weui-navbar__item').on('click', function () {
+    $(this).addClass('weui-bar__item_on').siblings('.weui-bar__item_on').removeClass('weui-bar__item_on');
+    var index = $(this).index();
+    $('.j-navbarContent').eq(index).show().siblings('.j-navbarContent').hide();
+    
+});
