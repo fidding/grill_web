@@ -66,7 +66,6 @@
 }
 .main .part-vip {
   position: relative;
-  height: 15.46666667rem;
 }
 .main .part-vip .logo {
   width: 2.69333333rem;
@@ -88,6 +87,7 @@
   right: .8rem;
 }
 .main .part-vip .block-cny {
+  height: 9.86666667rem;
   position: relative;
 }
 .main .part-vip .block-cny .cny {

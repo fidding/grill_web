@@ -1272,6 +1272,9 @@ i.jt {
 .pad-24 {
   padding: .69333333rem .64rem;
 }
+.pad-72 {
+  padding: 1.92rem;
+}
 .pad-0-15 {
   padding: 0 .4rem;
 }
@@ -1469,6 +1472,9 @@ i.jt {
 .line-height-28 {
   line-height: .74666667rem;
 }
+.line-height-30 {
+  line-height: .8rem;
+}
 .line-height-38 {
   line-height: 1.01333333rem;
 }
@@ -1567,6 +1573,12 @@ i.jt {
 }
 .color-020202 {
   color: #020202;
+}
+.color-d70b30 {
+  color: #d70b30;
+}
+.color-747474 {
+  color: #747474;
 }
 .part-footer {
   background-color: #1a1a1a;
