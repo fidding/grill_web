@@ -1,19 +1,6 @@
 .main {
   background-color: #0f0f0f;
 }
-.main .header {
-  position: relative;
-  height: 4.66666667rem;
-}
-.main .header span {
-  display: inline-block;
-  vertical-align: middle;
-}
-.main .header .logo,
-.main .header .logo img {
-  width: 2.37333333rem;
-  height: 1.84rem;
-}
 .main .part-header {
   position: relative;
   height: 3.73333333rem;
@@ -27,8 +14,8 @@
 }
 .main .part-header span {
   position: absolute;
-  right: .53333333rem;
-  top: .53333333rem;
+  top: .13333333rem;
+  right: 0;
 }
 .main .part-header img {
   position: absolute;
@@ -83,6 +70,7 @@
   padding: .02666667rem 0;
   display: inline-block;
   border-bottom: .02666667rem solid #ffffff;
+  font-family: 'FEDRA-bold';
 }
 .main .part-logo .logo {
   position: relative;

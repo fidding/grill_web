@@ -29,6 +29,7 @@
 .main .part-restaurant .block-position .block-text {
   position: relative;
   padding-left: 1.01333333rem;
+  padding-right: .64rem;
   right: 0;
 }
 .main .part-restaurant .more {
