@@ -120,3 +120,34 @@
   width: 1.73333333rem;
   height: 2.02666667rem;
 }
+.company-swiper {
+  width: 9.12rem;
+  height: 5.70666667rem;
+}
+.company-swiper .swiper-slide {
+  width: 100%;
+}
+.company-swiper .swiper-slide a {
+  display: block;
+  width: 9.12rem;
+  height: 5.70666667rem;
+}
+.company-swiper .swiper-button-next,
+.company-swiper .swiper-button-prev {
+  width: .66666667rem;
+  height: .66666667rem;
+  top: 50%;
+  margin-top: -0.34666667rem;
+}
+.company-swiper .swiper-button-next {
+  background: #b71532 url(../../images/next.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  right: 0;
+}
+.company-swiper .swiper-button-prev {
+  background: #b71532 url(../../images/prev.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  left: 0;
+}

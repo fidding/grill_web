@@ -10,7 +10,7 @@
     <meta name="screen-orientation" content="portrait">
     <!-- QQ强制竖屏 -->
     <meta name="x5-orientation" content="portrait">
-    <title>ContactUs</title>
+    <title>companyPrifile</title>
     <meta name="Description" content="" />
     <link rel="shortcut icon" href="" type="image/x-icon">
     <!-- Build CSS -->
@@ -25,7 +25,7 @@
     <div class="main pad-0-10">
         <div class="part-header">
             <div class="font-bebasbeue font20 ">COMPANY PROFILE</div>
-            <span class="font30">&Chi;</span>
+            <span class="font30">×</span>
             <img src="./images/LOGO.png" />
                 
         </div>
@@ -194,7 +194,7 @@
                 the Marco Polo, bringing many awards as a driving force  <br/>
                 in Shenzhen’s F&B world. 
             </div>
-            <div class="margin-top-20">
+            <div class="margin-top-20 margin-bottom-20">
                 Birol is a culinary egalitarian. Whether using tinned <br/>
                 sardines to produce sophisticated, avant-garde fun <br/>
                 dining, or using sophisticated, avant-garde techniques to <br/>
@@ -202,15 +202,36 @@
                 dishes and hospitality industries, he approaches both <br/>
                 with an equal lack of prejudice and unbiased opinion. 
             </div>
-            <div class="margin-top-20 margin-bottom-20">
+            
+            <!-- Swiper -->
+            <div class="swiper-container company-swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <a href="javascript:;">
+                            <img src="./images/5.jpg" />
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="javascript:;">
+                            <img src="./images/5.jpg" />
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="javascript:;">
+                            <img src="./images/5.jpg" />
+                        </a>
+                    </div>
+                </div>
+                <!-- Add Arrows -->
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+            <div class="margin-top-20 ">
                 In a mere 15 years in the luxury hotel industry, Birol <br/>
                 staked out an international reputation with his <br/>
                 highly personal and completely original F&B hospitality <br/>
                 and cuisine, specializing in highly technical plays on <br/>
                 texture, temperature, and preconceived expectations. 
-            </div>
-            <div>
-                <img src="./images/5.jpg" />
             </div>
             <div class="margin-top-20">
                 <span class="bold">Bus Grill Turkish Steakhouse </span>is a different expression <br/>
@@ -390,5 +411,21 @@
 <script  src="dist/js/lib/jquery-3.0.0.min.js"></script>
 <script  src="dist/js/swiper/swiper.min.js"></script>
 <script  src="dist/js/main.js"></script>
+<script type="text/javascript">
+    var swiper = new Swiper('.swiper-container', {
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+        autoplay: {
+            delay: 4000,
+            stopOnLastSlide: false,
+            disableOnInteraction: true,
+        },
+        loop:true,
+        observer:true,
+        observeParents:true
+    });
+</script>
 </body>
 </html>
