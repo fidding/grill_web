@@ -34,6 +34,7 @@ $("#j-menu").click(function () {
 })
 $(".menuBox .the-close").click(function(){
     menuBox.hide();
+    $('body').removeClass('o-hidden');
 })
 /*<!-- join 弹窗 -->*/
 $("#j-joinOur").click(function() {
