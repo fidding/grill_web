@@ -47,11 +47,15 @@ $(".joinBox .the-close").click(function(){
     $('body').removeClass('o-hidden');
 })
 // cny弹窗
-$('.see-rewards').click(function () {
-    $('body').addClass('o-hidden');
-    var type = $(this).data('type');
+$('.cny-item').click(function () {
+    // $('body').addClass('o-hidden');
+    var block_top = $(".block-cny").offset().top -650;
+    console.log(block_top)
+    $(window).scrollTop(block_top)
+    var type = $(this).find('.see-rewards').data('cny');
     console.log(type)
     cnyBox.show();
+
 })
 $(".cnyBox .the-close").click(function(){
     cnyBox.hide();

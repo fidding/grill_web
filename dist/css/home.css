@@ -390,12 +390,12 @@
 }
 .main .part-restaurant .block-position {
   position: absolute;
-  top: 2.66666667rem;
+  top: 1.6rem;
   left: 4.16rem;
 }
 .main .part-restaurant .block-position .block-img {
-  height: .53333333rem;
-  width: 5.33333333rem;
+  height: .82666667rem;
+  width: 5.25333333rem;
   right: .64rem;
 }
 .main .part-restaurant .block-position .block-img img {
@@ -462,6 +462,7 @@
 }
 .main .part-vip {
   position: relative;
+  padding: 1.33333333rem .74666667rem;
 }
 .main .part-vip .logo {
   width: 2.69333333rem;
