@@ -221,3 +221,135 @@
   height: 6.34666667rem;
   top: -1.33333333rem;
 }
+.res-swiper-container-2 {
+  width: 9.12rem;
+  height: 5.70666667rem;
+  margin: .53333333rem auto ;
+}
+.res-swiper-container-2 .swiper-button-next,
+.res-swiper-container-2 .swiper-button-prev {
+  width: .66666667rem;
+  height: .66666667rem;
+  top: 50%;
+  margin-top: -0.37333333rem;
+}
+.res-swiper-container-2 .swiper-button-next {
+  background: #b71532 url(../../images/next.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  left: 50%;
+  margin-left: 4rem;
+}
+.res-swiper-container-2 .swiper-button-prev {
+  background: #b71532 url(../../images/prev.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  left: auto;
+  right: 50%;
+  margin-right: 4rem;
+}
+.res-swiper-container-3 {
+  width: 8.34666667rem;
+  height: 5.73333333rem;
+  margin: .53333333rem auto ;
+  padding-bottom: .66666667rem;
+}
+.res-swiper-container-3 .swiper-wrapper {
+  height: 5.73333333rem;
+}
+.res-swiper-container-3 .swiper-button-next,
+.res-swiper-container-3 .swiper-button-prev {
+  width: .66666667rem;
+  height: .66666667rem;
+  bottom: 0;
+  top: auto;
+}
+.res-swiper-container-3 .swiper-button-next {
+  background: #d0d0d0 url(../../images/next.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  left: auto;
+  right: 0;
+}
+.res-swiper-container-3 .swiper-button-prev {
+  background: #d0d0d0 url(../../images/prev.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  right: auto;
+  left: 0;
+}
+.res-swiper-container-4 {
+  width: 9.49333333rem;
+  height: 6.34666667rem;
+}
+.res-swiper-container-4 .swiper-button-next,
+.res-swiper-container-4 .swiper-button-prev {
+  width: .66666667rem;
+  height: .66666667rem;
+  top: 50%;
+  margin-top: -0.34666667rem;
+}
+.res-swiper-container-4 .swiper-button-next {
+  background: #717171 url(../../images/next.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  left: auto;
+  right: 0;
+}
+.res-swiper-container-4 .swiper-button-prev {
+  background: #717171 url(../../images/prev.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  right: auto;
+  left: 0;
+}
+.swiper-container-3 {
+  margin: 0 auto 0;
+  width: 9.49333333rem;
+  height: 13.22666667rem;
+}
+.swiper-container-3 .swiper-wrapper .swiper-slide {
+  width: 100%;
+}
+.swiper-container-3 .swiper-wrapper .swiper-slide img {
+  height: 8.53333333rem;
+}
+.swiper-container-3 .swiper-button-next,
+.swiper-container-3 .swiper-button-prev {
+  width: .66666667rem;
+  height: .66666667rem;
+  top: 3.73333333rem;
+}
+.swiper-container-3 .swiper-button-next {
+  background: #d70b30 url(../../images/next.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  right: 0;
+  left: auto;
+}
+.swiper-container-3 .swiper-button-prev {
+  background: #d70b30 url(../../images/prev.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  left: 0;
+  right: auto;
+}
+.swiper-container-3 .more {
+  color: #fff;
+}
+.swiper-container-3 .imgBox {
+  width: 100%;
+  position: relative;
+  height: 8.53333333rem;
+}
+.swiper-container-3 .imgBox .a-link {
+  position: absolute;
+  width: 1.33333333rem;
+  height: .96rem;
+  display: block;
+  right: 0;
+  background: url(../../images/r-logo.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  bottom: 0;
+}

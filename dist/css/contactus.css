@@ -13,7 +13,6 @@
   top: 2.64rem;
   margin: 0 auto;
   width: 7.52rem;
-  height: 13.36rem;
   background-color: #707070;
 }
 .main .part-bg .part-contact .qrcode-list {
@@ -35,4 +34,9 @@
   height: 8.8rem;
   width: 100%;
   top: 0px;
+}
+.a-link-map {
+  display: inline-block;
+  color: #fff;
+  margin-right: .53333333rem;
 }
