@@ -139,6 +139,9 @@
   float: left;
   width: 4.10666667rem;
 }
+.main .part-logo a {
+  color: #747474;
+}
 .main .part-logo .more {
   padding: .02666667rem 0;
   display: inline-block;
